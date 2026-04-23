@@ -3,14 +3,14 @@ export const config = {
   maxDuration: 60
 };
 
-const UUID = 'b5ee5eff-0b9e-4bcf-bf3d-4a53ce15b8be';
-const PATH = '/91.227.40.125-8443';
-const BACKEND = 'winter.lovolyxa.workers.dev';
+const UUID = 'eb43d7a0-8c4b-4cbb-9db9-5b7aba925d93';
+const PATH = '/v2ray';
+const BACKEND = 'free1.landofn4.loseyourip.com';
 
 export default async function handler(request) {
   const host = request.headers.get('host');
 
-  const vlessUrl = `vless://${UUID}@${host}:443?path=%2Fapi%2Fv2ray&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=${host}&fp=chrome&type=ws&sni=${host}#Vercel-V2Ray`;
+  const vlessUrl = `vless://${UUID}@${host}:443?path=%2Fv2ray&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=${host}&fp=chrome&type=ws&sni=${host}#Vercel-V2Ray`;
 
   const responseData = {
     vless: vlessUrl,
