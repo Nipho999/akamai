@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "api/seen.js": {
+      "runtime": "edge",
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/seen",
+      "destination": "/api/seen"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
