@@ -24,7 +24,7 @@ export default async function handler(request) {
     uuid: UUID,
     server: host,
     port: 443,
-    path: "/api/v2ray",
+    path: "/91.227.40.125-8443",
     security: "tls",
     alpn: "h2,http/1.1",
     encryption: "none",
