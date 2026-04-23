@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/api/v2ray",
+      "source": "/91.227.40.125-8443",
       "destination": "https://winter.lovolyxa.workers.dev/api/v2ray"
     },
     {
