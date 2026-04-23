@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/91.227.40.125-8443",
-      "destination": "https://winter.lovolyxa.workers.dev/api/v2ray"
+      "source": "/v2ray",
+      "destination": "https://free1.landofn4.loseyourip.com"
     },
     {
       "source": "/api/seen",
